@@ -1,0 +1,1 @@
+from chromespider.spider.main import ChromeSpider
