@@ -36,13 +36,6 @@ setup(
     install_requires=[],
     extras_require={
         "dev": [
-            "pytest",
-            "mypy",
-            "flake8",
-            "black",
-            "isort",
-            "pytest-cov",
-            "pre-commit",
         ]
     },
 )

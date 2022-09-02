@@ -1,2 +1,4 @@
 # chromespider
 
+only for mac
+
