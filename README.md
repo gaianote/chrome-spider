@@ -14,7 +14,7 @@ pip3 install chrome-spider
 基于 selenium 封装了一些常用的配置,快速启动
 
 ```python
-from chromespider import Spider
+from chrome_spider import Spider
 
 spider = Spider()
 driver = spider.get_driver()
