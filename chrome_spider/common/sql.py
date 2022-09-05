@@ -1,6 +1,6 @@
 import sqlite3
 import os
-from chromespider.common.config import config
+from chrome_spider.common.config import config
 
 create_table_account = '''
 create table account(

@@ -6,9 +6,9 @@ from selenium import webdriver
 import time
 import json
 import subprocess
-from chromespider.common.sql import DB
-from chromespider.common.config import config
-from chromespider.spider.cookie import CookieManager
+from chrome_spider.common.sql import DB
+from chrome_spider.common.config import config
+from chrome_spider.spider.cookie import CookieManager
 
 
 

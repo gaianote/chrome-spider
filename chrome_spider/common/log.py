@@ -1,5 +1,5 @@
 import logging
-from chromespider.common.config import config
+from chrome_spider.common.config import config
 
 def get_logger(level="INFO"):
     logfile = config.logfile

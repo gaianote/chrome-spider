@@ -10,9 +10,9 @@ with open(os.path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="chromespider",
+    name="chrome-spider",
     version=VERSION,
-    packages=["chromespider"],
+    packages=["chrome_spider"],
     url="",
     author="gaianote",
     author_email="",
@@ -30,7 +30,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "chromespider = chromespider.app:main"
+            "chrome-spider = chrome_spider.app:main"
         ]
     },
     install_requires=[],

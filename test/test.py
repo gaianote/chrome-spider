@@ -1,4 +1,4 @@
-from chromespider import Spider
+from chrome_spider import Spider
 
 
 if __name__ == "__main__":

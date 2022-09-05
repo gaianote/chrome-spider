@@ -1,5 +1,5 @@
-from chromespider.common.config import config
-from chromespider.common.sql import DB
+from chrome_spider.common.config import config
+from chrome_spider.common.sql import DB
 import json
 import time
 
