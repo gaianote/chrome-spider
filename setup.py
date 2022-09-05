@@ -14,7 +14,7 @@ setup(
     version=VERSION,
     packages=["chromespider"],
     url="",
-    author="",
+    author="gaianote",
     author_email="",
     long_description=long_description,
     long_description_content_type="text/markdown",
