@@ -1,1 +1,1 @@
-from chromespider.spider.main import ChromeSpider
+from chromespider.spider.main import Spider

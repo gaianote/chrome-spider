@@ -12,7 +12,7 @@ from chromespider.spider.cookie import CookieManager
 
 
 
-class ChromeSpider(CookieManager):
+class Spider(CookieManager):
     def __init__(self,debug=False):
         self.debug = debug
         self.debugger_port = 9222
