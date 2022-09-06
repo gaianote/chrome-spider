@@ -2,7 +2,6 @@ async-generator==1.10
 attrs==22.1.0
 certifi==2022.6.15
 charset-normalizer==2.1.1
--e git+https://github.com/gaianote/chrome-spider.git@bb421a4fae8f02f36619a3612154454b384f484c#egg=chrome_spider
 h11==0.13.0
 idna==3.3
 outcome==1.2.0
