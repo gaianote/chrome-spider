@@ -15,7 +15,7 @@ setup(
     packages=["chrome_spider"],
     url="",
     author="gaianote",
-    author_email="",
+    author_email="gaianote311@gmail.com",
     long_description=long_description,
     long_description_content_type="text/markdown",
     include_package_data=True,
@@ -33,7 +33,10 @@ setup(
             "chrome-spider = chrome_spider.app:main"
         ]
     },
-    install_requires=[],
+    install_requires=[
+        "webdriver-manager >= 3.8.3",
+        "selenium >= 4.4.3"
+    ],
     extras_require={
         "dev": [
         ]

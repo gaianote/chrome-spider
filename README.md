@@ -1,4 +1,4 @@
-# chromespider
+# chrome-spider
 
 only for mac 
 
