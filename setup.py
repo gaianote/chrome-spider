@@ -1,10 +1,10 @@
 import os
 
-from setuptools import setup
+from setuptools import setup,find_packages
 
 here = os.path.abspath(os.path.dirname(__file__))
 
-VERSION = "0.0.1"
+VERSION = "0.0.3"
 
 with open(os.path.join(here, "README.md"), encoding="utf-8") as f:
     long_description = f.read()
@@ -12,13 +12,13 @@ with open(os.path.join(here, "README.md"), encoding="utf-8") as f:
 setup(
     name="chrome-spider",
     version=VERSION,
-    packages=["chrome_spider"],
     url="https://github.com/gaianote/chrome-spider",
     author="gaianote",
     author_email="gaianote311@gmail.com",
     long_description=long_description,
     long_description_content_type="text/markdown",
     include_package_data=True,
+    packages=find_packages(),
     zip_safe=False,
     classifiers=[
         "Programming Language :: Python :: 3 :: Only",
