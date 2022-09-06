@@ -13,7 +13,7 @@ setup(
     name="chrome-spider",
     version=VERSION,
     packages=["chrome_spider"],
-    url="",
+    url="https://github.com/gaianote/chrome-spider",
     author="gaianote",
     author_email="gaianote311@gmail.com",
     long_description=long_description,
