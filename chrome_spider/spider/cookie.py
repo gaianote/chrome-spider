@@ -57,7 +57,7 @@ class CookieManager(object):
         time.sleep(0.5)
         self.driver.refresh()
 
-    def get_cookie(self):
+    def get_cookie(self,host,name):
         """
         从数据库中获取 cookies
         """
